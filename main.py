@@ -7,8 +7,8 @@ import matplotlib.pyplot as plt
 from sklearn.metrics import confusion_matrix
 import seaborn as sns
 
-train_data = pd.read_csv(r"C:\Users\Ruxandra\Desktop\nnproj\train.csv") #60k images
-test_data = pd.read_csv(r"C:\Users\Ruxandra\Desktop\nnproj\test.csv") #10k images
+train_data = pd.read_csv(r"your\path\train.csv") #60k images
+test_data = pd.read_csv(r"your\path\test.csv") #10k images
 
 #first column is unnamed
 train_data = train_data.drop('Unnamed: 0', axis=1)
